@@ -13,8 +13,7 @@ public class Utilsuse {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.chromedriver().setup(); 
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/");
-		Pageloadtime.pagetime(driver, 10);
+		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/");	
 		By name =By.id("Form_submitForm_Name");
 		By email =By.id("Form_submitForm_Email");
 		Util utils = new Util(driver);

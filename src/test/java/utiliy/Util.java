@@ -32,19 +32,44 @@ public class Util {
 	 * 
 	 * @param locator
 	 * @param timeout
+	 * @return 
 	 */
-	public void waitforElementpresent(By locator,int timeout) {
+	public WebElement waitforElementpresent(By locator,int timeout) {
 		WebDriverWait wait = new WebDriverWait(driver,timeout);
 		wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+		return getElement(locator);
 	}
 	/**
 	 * this will wait for to element clickable
 	 * @param locator
 	 * @param timeout
+	 * @return 
 	 */
-	public void waitforElementTobeclickable(By locator,int timeout) {
+	public WebElement waitforElementTobeclickable(By locator,int timeout) {
 		WebDriverWait wait = new WebDriverWait(driver,timeout);
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
+		return getElement(locator);
+	}
+	public void clickwhenReady(By locator,int timeout) {
+		WebDriverWait wait = new WebDriverWait(driver,timeout);
+		wait.until(ExpectedConditions.elementToBeClickable(locator));
+		getElement(locator).click();
+	}
+	/**
+	 * this will check visiblity of element on page as well available in dom
+	 * @param element
+	 * @param timeout
+	 * @return 
+	 */
+	public WebElement waitforElementTobevisible(WebElement element,int timeout) {
+		WebDriverWait wait = new WebDriverWait(driver,timeout);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		return element;
+	}
+	public WebElement waitforElementTobevisibilitylocated(By locator,int timeout) {
+		WebDriverWait wait = new WebDriverWait(driver,timeout);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+		return getElement(locator);
 	}
 	public String waitforTitlepresent(String title,int timeout) {
 		WebDriverWait wait = new WebDriverWait(driver,timeout);
