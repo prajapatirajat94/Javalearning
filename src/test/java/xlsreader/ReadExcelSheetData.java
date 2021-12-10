@@ -55,13 +55,11 @@ public static String GetExcelData(String path,String Sheetname,String key) throw
 	  //Putting key & value in dataMap
 	  dataMap.put(keys, value);
 		  
-	  //Putting dataMap to excelFileMap
-	  excelFileMap.put("DataSheet", dataMap);
+	  
   }
-	  // here we took key of excelfilemap so it would give HAshmap
-	  Map<String, String> m = excelFileMap.get("DataSheet");
-		String value = m.get(key);
-		return value;
+	  String value = dataMap.get(key);
+	  
+	  return value;
  
 }
 }
