@@ -24,7 +24,7 @@ public static WebDriver driver;
 		.collect(Collectors.toList());*/
 		List<String> collectionlist=linklist.stream()
 				.filter(ele -> !ele.getText().isEmpty())
-				.filter(ele-> !ele.getText().startsWith(" "))
+				.filter(ele-> ele.getText().startsWith("Amazon"))
 				.map(ele-> ele.getText().trim())
 				.collect(Collectors.toList());
 	collectionlist.parallelStream().forEach(ele -> System.out.println(ele));
