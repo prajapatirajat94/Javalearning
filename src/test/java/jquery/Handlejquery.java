@@ -2,10 +2,14 @@ package jquery;
 
 import java.util.List;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dropdownhandle.Dropdownutils;
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -18,7 +22,7 @@ public static WebDriver driver;
 		driver = new ChromeDriver();
 		driver.get("https://www.jqueryscript.net/demo/Drop-Down-Combo-Tree/");
 		driver.findElement(By.xpath("//input[@id ='justAnInputBox']")).click();
-
+Alert alert = driver.switchTo().alert();
 		SelectCheckbox(driver,"all");
 
 	}

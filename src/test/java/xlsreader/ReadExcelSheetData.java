@@ -35,7 +35,7 @@ public static String GetExcelData(String path,String Sheetname,String key) throw
 	  
 	  int lastRow = sheet.getLastRowNum();
 	  
-	  Map<String, Map<String, String>> excelFileMap = new HashMap<String, Map<String,String>>();
+	 // Map<String, Map<String, String>> excelFileMap = new HashMap<String, Map<String,String>>();
 	  
 	  Map<String, String> dataMap = new HashMap<String, String>();
 	  
