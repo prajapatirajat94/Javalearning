@@ -13,8 +13,14 @@ public class Arraycln {
 		ar.add("danger");
 		ar.add("abc");
 		ar.add("ab");	
-		ArrayList<String>arcln = new ArrayList<String>(Arrays.asList("rajat","kamal"));
+		System.out.println(ar);
+		//ArrayList<String>arcln = new ArrayList<String>(Arrays.asList("rajat","kamal"));
 		//System.out.println(arcln);	
+		/* Clone copy of arraylist*/
+		ArrayList<String>arcln = (ArrayList<String>) ar.clone();
+		//arranged it in ascending order 
+		Collections.sort(arcln);
+		System.out.println("clone copy : "+arcln);
 	
 	//System.out.println(ar);
 	Iterator<String>it=ar.iterator();
