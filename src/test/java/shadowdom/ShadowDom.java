@@ -23,11 +23,12 @@ public class ShadowDom {
         JavascriptExecutor jse = (JavascriptExecutor)driver;
  
        WebElement element = (WebElement) jse.executeScript("return document.querySelector(\"#snacktime\").shadowRoot.querySelector(\"#tea\")");
-       String js ="arguments[0].setAttribute('value','Love Samosa')";
-       jse.executeScript(js, element);
-      WebElement element2= (WebElement) jse.executeScript("return document.querySelector(\"#snacktime\").shadowRoot.querySelector(\"#app2\").shadowRoot.querySelector(\"#pizza\")");
-	String js1 = "arguments[0].setAttribute('value','Dinner time')";
-	jse.executeScript(js1, element2);
+       element.sendKeys("I like something");
+//       String js ="arguments[0].setAttribute('value','Love Samosa')";
+//       jse.executeScript(js, element);
+//      WebElement element2= (WebElement) jse.executeScript("return document.querySelector(\"#snacktime\").shadowRoot.querySelector(\"#app2\").shadowRoot.querySelector(\"#pizza\")");
+//	String js1 = "arguments[0].setAttribute('value','Dinner time')";
+//	jse.executeScript(js1, element2);
 	
 	}
 

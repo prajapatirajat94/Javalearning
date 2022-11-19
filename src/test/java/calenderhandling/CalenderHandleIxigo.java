@@ -15,12 +15,13 @@ public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.ixigo.com/");
 		// index of calender get chanaged when we click on return
 		// while loop is for 2nd calender
 		//click departure 
-		Selectstartdate("December 2021","7");
-		Selectenddate("August 2022","25");
+		Selectstartdate("December 2022","7");
+		Selectenddate("January 2023","21");
 		
 				
 	}

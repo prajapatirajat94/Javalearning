@@ -19,8 +19,15 @@ public class Practice {
 		h1.put(6, "rancho");
 		 
 		
+		Iterator<Integer>i =h1.keySet().iterator();
 		
-
+		while(i.hasNext()) {
+			Integer key = i.next();
+			String value= h1.get(key);
+			System.out.println("key is "+key+ "value is "+value);
+		}
+		
+		h1.forEach((k,v)->System.out.println("key is "+k+ "value is "+v));
 
 	}
 

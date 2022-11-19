@@ -20,8 +20,8 @@ public static void main (String[]s) {
 	String path = "C:\\Users\\praja\\eclipse-workspace\\Javalearning\\Mybook.xlsx";
 	HashMap<String, String>data =Readfile(path,"Sheet1","Rajat");
 	data.forEach((k,v) -> System.out.println(k+"  "+v));
-	
-	
+	String p=data.get("address");
+	System.out.println(p);
 	
 }
 
