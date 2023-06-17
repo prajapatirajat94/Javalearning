@@ -8,10 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class practiceweb {
 public static WebDriver driver;
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.drive","chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.w3schools.com/html/html_tables.asp");
 //driver.manage().window().maximize();

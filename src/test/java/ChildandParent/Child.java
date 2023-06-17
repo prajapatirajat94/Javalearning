@@ -1,9 +1,10 @@
 package ChildandParent;
 
-public class Child  {
+public class Child extends Parents {
 
-	public Child(int i, int j) {
-		System.out.println(i+" & "+j+" is from Child class");
+	public Child(int i,int j) {
+		super(i, j);
+		//System.out.println(i+" & "+j+" is from Child class");
 		
 	}
 

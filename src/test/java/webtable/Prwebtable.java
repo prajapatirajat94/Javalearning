@@ -8,10 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Prwebtable {
 public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.drive","chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 driver.get("https://datatables.net/");
 //[@id="example"]/tbody/tr[1]/td[2]
