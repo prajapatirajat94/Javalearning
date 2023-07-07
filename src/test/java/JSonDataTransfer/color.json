@@ -1,0 +1,63 @@
+{
+"ClientProfile":{
+                 "Primary":"yes",
+				 "Joints":true,
+				 "Clients":[
+				           {"Client1":{
+				                       "firstname":"Rajatkumar",
+				                       "Lastname":"Prajapati",
+				                       "Citizenship":"Canadian",
+				                       "DOB":{
+									   "Date":12,
+									   "Month":1,
+									   "year":2001
+								        },
+				                       "Address":[
+				                                 "2250 kennedy road",
+				                                 "20 tuxedo court",
+				                                 "1400 ouellette ave"
+				                                 ]
+				                      },
+									  "Client2":{
+				                       "firstname":"rajat2",
+				                       "Lastname":"Prajapati",
+				                       "Citizenship":"indian",
+				                       "DOB":{
+									   "Date":11,
+									   "Month":1,
+									   "year":2002
+								        },
+				                       "Address":[
+				                                 "2250 kennedy road",
+				                                 "20 tuxedo court",
+				                                 "1400 ouellette ave"
+				                                 ]
+				                      }
+				           },
+				           {"Client2":{
+				                       "firstname":"Kajol",
+				                       "Lastname":"Prajapati",
+				                       "Citizenship":"indian",
+				                       "DOB":{
+									   "Date":12,
+									   "Month":1,
+									   "year":2003
+								        },
+				                       "Address":[
+				                                 "2250 kennedy road",
+				                                 "20 tuxedo court",
+				                                 "1400 ouellette ave"
+				                                 ]
+				                      }
+						   }
+				 
+				 
+				],
+				"AccountType":"SIP"
+				 
+				 
+				 
+				 
+				 
+                 }
+}
