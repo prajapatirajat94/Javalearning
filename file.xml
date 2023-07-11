@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MavenPracticeTest package" >
+  <test thread-count="5" name="MavenPracticeTest">
+<!--   when running remotely with maven comment below line -->
+<!--    <parameter name="browser" value="ParamterBrowser from XML file"/> -->
+<!--   <parameter name="web" value="Web from XML file "/> -->
+    <classes>
+      <class name="MavenParameterPass.MvnPractice">
+      </class>
+    </classes>
+  </test> 
+</suite> 
