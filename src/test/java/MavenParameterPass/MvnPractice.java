@@ -12,8 +12,9 @@ public class MvnPractice {
     1.create @Parameters({"browser","web"})
     2.then pass this parameter from command line as below:
     mvn -Dbrowser=chrome -Dweb=Rajat.com clean install 
-    3.you can pass data to pom.xml file as well cover data with ${file}
+    3.you can pass data to pom.xml file as well cover data with ${file} for xml file
     mvn -Dbrowser=chrome -Dweb=Rajat.com -Dfile=file1 clean install 
+    4.if this browser properties available in pom.xml file then priority will be given to pom properties value
     
  
 */
@@ -24,6 +25,8 @@ public class MvnPractice {
 	   
 	   System.out.println("browser value is : ===>> "+browser);
 	   System.out.println("web value is : ===>> "+WEb);
+	   System.out.println("POM browser value is : ===>> "+System.getProperty("browser"));
+	   
 	   
 		
 	}
