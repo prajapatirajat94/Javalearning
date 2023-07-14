@@ -3,8 +3,8 @@
 <suite name="MavenPracticeTest package" >
   <test thread-count="5" name="MavenPracticeTest">
 <!--   when running remotely with maven comment below line -->
-   <parameter name="browser" value="ParamterBrowser from XML file"/>
-  <parameter name="web" value="Web from XML file "/>
+<!--    <parameter name="BROWSER" value="ParamterBrowser from XML file"/> -->
+<!--   <parameter name="WEB" value="Web from XML file "/> -->
     <classes>
       <class name="MavenParameterPass.MvnPractice">
       </class>
