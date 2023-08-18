@@ -1,0 +1,2259 @@
+{
+  "clientProfile": {
+    "signaturePreference": "Print & Sign",
+    "listOfOwners": [
+      "primaryApplicant"
+    ],
+    "Clients": {
+      "Client1": {
+        "newOrExistingClient": "new",
+        "language": "English",
+        "clientName": {
+          "clientTitle": "Mrs",
+          "firstName": "John",
+          "clientMiddleInitial": "B",
+          "lastName": "Doe",
+          "mothersMaidenName": "Mary"
+        },
+        "clientStatus": "OP",
+        "birthDate": {
+          "year": "1937",
+          "month": "February",
+          "day": "28"
+        },
+        "contact": {
+          "contactInformation": {
+            "emailAddress": "Test.Two@gmail.com",
+            "homePhone": "4379119019",
+            "mobilePhone": "6423453920",
+            "businessPhone": "6423453921"
+          },
+          "homeAddress": {
+            "streetAddress": "17 Foxmere rd",
+            "unitType": "Unit",
+            "unit": "1",
+            "city": "Toronto",
+            "country": "Canada",
+            "additionalAddress": "",
+            "province": "Ontario",
+            "postalcode": "L6R2X9",
+            "emailType": "Personal Email"
+          }
+        },
+        "taxStatus": {
+          "citizenship": "Canadian",
+          "clientSin": "487920381",
+          "clientUSPerson": "No",
+          "renouncedCitizen": "No",
+          "tinProvided": "Yes",
+          "countryOfTIN1": "Cuba",
+          "tin1": "1111111111",
+          "countryOfTIN2": "Andorra",
+          "tin2": "2222222",
+          "countryOfTIN3": "Australia",
+          "tin3": "3333333"
+        },
+        "identification": {
+          "identificationDocType": "Driver's Licence",
+          "otherType": "RationCard",
+          "identificationDocNo": "DL2342342486",
+          "placeOfIssuance": "Somalia",
+          "issuedBy": "Galmudug",
+          "expiryMonth": "May",
+          "expiryDay": "31",
+          "expiryYear": "2028",
+          "expiryDate": "2018-05-31"
+        },
+        "employment": {
+          "status": "Employed",
+          "scotiaEmployer": "N",
+          "NoPreviousEmploymentHistory": "Y",
+          "employerName": "ABC co.",
+          "scotiaLineOfBusiness": "",
+          "scotiaInsider": "",
+          "employedFor": "2 years - 5 years",
+          "industry": "Manufacturing",
+          "occupation": "Machinist",
+          "otherOccupation": "Random work",
+          "streetAddress": "40 King Street West",
+          "unitType": "Apt",
+          "unit": "133",
+          "country": "India",
+          "city": "Mumbai",
+          "state": "Mah",
+          "postalCode": "A1B1C1"
+        },
+        "familyInformation": {
+          "maritalStatus": "Divorced",
+          "dependents": "1",
+          "title": "Mrs",
+          "firstName": "Anna",
+          "initial": "AK",
+          "lastName": "Kaur",
+          "sin": "401905674",
+          "status": "Student",
+          "employerName": "Student",
+          "industry": "Educational Services",
+          "occupation": "Counselor",
+          "mostRecentEmployerName": "Counselor",
+          "mostRecentEmploymentIndustry": "Arts, Entertainment and Recreation",
+          "mostRecentEmploymentOccupation": "Administrator",
+          "noPreviousEmploymentHistory": "yes"
+        },
+        "financialInformation": {
+          "overAll": "Moderate",
+          "mutualFunds": "Limited",
+          "fixedIncome": "Limited",
+          "stock": "Moderate",
+          "margin": "Moderate",
+          "options": "Extensive",
+          "shortSales": "Extensive",
+          "annualGrossIncome": "$150,000 - $199,000",
+          "netLiquidAssets": "10000",
+          "netFixedAssets": "1000"
+        },
+        "relationshipDisclosures": {
+          "insiderOfCompany": {
+            "hasInsiderCompanies": "No",
+            "insiderCompanies": ["Insider1","Insider2","Insider3"]
+          },
+          "controlCompany": {
+            "hasControlCompanies": "No",
+            "controlCompanies": ["Control1","Control2"]
+          },
+          "isClientPro": {
+            "isPro": "No",
+            "proCompanies": ["Pro1","Pro2"]
+          },
+          "tradingAuthority": {
+            "hasTradingAuthority": "No",
+            "accountNumbers": ["12345678","23456789"]
+          },
+          "anotherSecuritiesFirm": {
+            "hasAnotherSecuritiesFirm": "No",
+            "firmNames": ["Firm1","Firm2"]
+          },
+          "pepInfo": {
+            "pepPosition": "Leader or president of a political party in a legislature",
+            "pepCountry": "Europa Islands",
+            "pepRelationship": "Spouse or common-law partner's parent(s)",
+            "pepTitle": "Mrs",
+            "pepFirstName": "Brooklyn",
+            "pepInitial": "N",
+            "pepLastName": "Franklin",
+            "currentPosition": "No",
+            "pepDutyDescription": "The deputy minister is responsible to the minister, the government, the central management agencies and Parliament.",
+            "pepOfficeDateFrom": {
+              "month": "February",
+              "day": "28",
+              "year": "2018"
+            },
+            "pepOfficeDateTo": {
+              "month": "January",
+              "day": "1",
+              "year": "2019"
+            }
+          }
+        },
+        "communications": {
+          "consentToShareScotiabankGroup": "Yes"
+        },
+        "additionalInfo": {
+          "metFaceToFace": "Yes",
+          "advisorRegisteredInProvince": "Yes"
+        },
+        "sourceOfWealth": "Client1 - Inheritance - 2M, lottery - 100k, real estate - 50k/yr, business - 250k/yr, trust fund - 50k/yr"
+      }
+    },
+    "Accounts": {
+      "accountNames": {
+        "accountKinds": [
+          "CASH",
+          "TFSA",
+          "LIRA",
+          "RSP",
+          "SRSP",
+          "LRSP",
+          "RIF",
+          "SRIF",
+          "LIF"
+        ]
+      },
+      "accountFeatures": [
+        {
+          "accountCategoryNonregistered": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "CASH"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": "Income"
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategoryRsp": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "RSP"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategoryTfsa": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "TFSA"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategorySrsp": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "SRSP"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategoryRif": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "RIF"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategorySrif": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "SRIF"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategoryLira": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "LIRA"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategoryLrsp": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "LRSP"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        },
+        {
+          "accountCategoryLif": [
+            {
+              "productType": "SIP"
+            },
+            {
+              "accountKind": "LIF"
+            },
+            {
+              "accountType": "CASH"
+            },
+            {
+              "additionalAccountTypeIncome": ""
+            },
+            {
+              "additionalAccountTypeShort": ""
+            },
+            {
+              "additionalAccountTypeOptions": ""
+            }
+          ]
+        }
+      ],
+      "ownershipAllocation": [
+        {"ownershipNonregistered":[
+          {
+            "tenantsInCommon": "Yes"
+          },
+          {
+            "rightOfSurvivorship": "No"
+          },
+          {
+            "allocation": ["20", "40", "20", "20"]
+          }
+        ]}
+      ],
+      "mailingAddress": [
+        {"mailingAddressNonregistered": {
+          "accountKind": "CASH",
+          "sameAsHomeAddress": "No",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "Yes",
+          "expiryDate": "12/12/2022",
+          "newAddress": {
+            "completeAddress": "New Mailing Addr AttentionTo, Unit 526 - 858 Bloor Street West, Additional Addr Info, Toronto ON Canada M6G1M2 (New Mailing Addr Description)",
+            "addressDescription": "New Mailing Addr Description",
+            "addressLine1": "858 Bloor Street West",
+            "aptSuiteType": "Unit",
+            "aptSuite": "526",
+            "city": "Toronto",
+            "country": "Canada",
+            "additionalAddrInfo": "Additional Addr Info",
+            "province": "Ontario",
+            "postalCode": "M6G1M2",
+            "attentionTo": "New Mailing Addr AttentionTo"
+          }
+        }},
+        {"mailingAddressRsp": {
+          "accountKind": "RSP",
+          "sameAsHomeAddress": "No",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "Yes",
+          "expiryDate": "12/12/2022",
+          "newAddress": {
+            "completeAddress": "New Mailing Addr AttentionTo, Unit 526 - 858 Bloor Street West, Additional Addr Info, Toronto ON Canada M6G1M2 (New Mailing Addr Description)",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressTfsa": {
+          "accountKind": "TFSA",
+          "sameAsHomeAddress": "Yes",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "No",
+          "expiryDate": "",
+          "newAddress": {
+            "completeAddress": "",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressSrsp": {
+          "accountKind": "SRSP",
+          "sameAsHomeAddress": "Yes",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "No",
+          "expiryDate": "",
+          "newAddress": {
+            "completeAddress": "",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressRif": {
+          "accountKind": "RIF",
+          "sameAsHomeAddress": "No",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "Yes",
+          "expiryDate": "12/12/2022",
+          "newAddress": {
+            "completeAddress": "New Mailing Addr AttentionTo, Unit 526 - 858 Bloor Street West, Additional Addr Info, Toronto ON Canada M6G1M2 (New Mailing Addr Description)",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressSrif": {
+          "accountKind": "SRIF",
+          "sameAsHomeAddress": "Yes",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "No",
+          "expiryDate": "",
+          "newAddress": {
+            "completeAddress": "",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressLira": {
+          "accountKind": "LIRA",
+          "sameAsHomeAddress": "No",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "Yes",
+          "expiryDate": "12/12/2022",
+          "newAddress": {
+            "completeAddress": "New Mailing Addr AttentionTo, Unit 526 - 858 Bloor Street West, Additional Addr Info, Toronto ON Canada M6G1M2 (New Mailing Addr Description)",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressLrsp": {
+          "accountKind": "LRSP",
+          "sameAsHomeAddress": "No",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "Yes",
+          "expiryDate": "12/12/2022",
+          "newAddress": {
+            "completeAddress": "New Mailing Addr AttentionTo, Unit 526 - 858 Bloor Street West, Additional Addr Info, Toronto ON Canada M6G1M2 (New Mailing Addr Description)",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }},
+        {"mailingAddressLif": {
+          "accountKind": "LIF",
+          "sameAsHomeAddress": "No",
+          "sameAsEmploymentAddress": "No",
+          "newMailingAddress": "Yes",
+          "expiryDate": "12/12/2022",
+          "newAddress": {
+            "completeAddress": "New Mailing Addr AttentionTo, Unit 526 - 858 Bloor Street West, Additional Addr Info, Toronto ON Canada M6G1M2 (New Mailing Addr Description)",
+            "addressDescription": "",
+            "addressLine1": "",
+            "aptSuiteType": "",
+            "aptSuite": "",
+            "city": "",
+            "country": "",
+            "additionalAddrInfo": "",
+            "province": "",
+            "postalCode": "",
+            "attentionTo": ""
+          }
+        }}
+      ],
+      "regulatory": [
+        {
+          "borrowMoney": [
+            {
+              "regulatoryNonregistered": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryRsp": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryTfsa": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatorySrsp": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryRif": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatorySrif": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLira": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLrsp": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLif": [
+                {
+                  "willBorrowMoney": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "accountGuarantor": [
+            {
+              "regulatoryNonregistered": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryRsp": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryTfsa": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatorySrsp": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryRif": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatorySrif": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLira": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLrsp": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLif": [
+                {
+                  "hasAccountGuarantor": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "otherThanYourself": [
+            {
+              "regulatoryNonregistered": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryRsp": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryTfsa": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatorySrsp": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryRif": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatorySrif": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLira": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLrsp": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            },
+            {
+              "regulatoryLif": [
+                {
+                  "hasOtherThanYourself": "No"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "riskAndObjectives": [
+        {
+          "riskAndObjectivesNonregistered": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesRsp": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesTfsa": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesSrsp": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesRif": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesSrif": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesLira": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesLrsp": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        },
+        {
+          "riskAndObjectivesLif": [
+            {
+              "investmentObjectives": [
+                {
+                  "incomeObjective": ""
+                },
+                {
+                  "growthObjective": ""
+                },
+                {
+                  "speculativeObjective": ""
+                }
+              ]
+            },
+            {
+              "riskTolerance": [
+                {
+                  "lowRiskTolerance": ""
+                },
+                {
+                  "mediumRiskTolerance": ""
+                },
+                {
+                  "highRiskTolerance": ""
+                }
+              ]
+            },
+            {
+              "timeHorizon": ""
+            }
+          ]
+        }
+      ],
+      "initialFunding": [
+        {"initialFundingNonregistered": {
+          "initialDepositAmount": "2000",
+          "assetTransfer": "1000"
+        }},
+        {"initialFundingRsp": {
+          "initialDepositAmount": "3000",
+          "assetTransfer": "2000"
+        }},
+        {"initialFundingTfsa": {
+          "initialDepositAmount": "4000",
+          "assetTransfer": "3000"
+        }},
+        {"initialFundingSrsp": {
+          "initialDepositAmount": "5000",
+          "assetTransfer": "2000"
+        }},
+        {"initialFundingRif": {
+          "initialDepositAmount": "6000",
+          "assetTransfer": "3000"
+        }},
+        {"initialFundingSrif": {
+          "initialDepositAmount": "3500",
+          "assetTransfer": "1500"
+        }},
+        {"initialFundingLira": {
+          "governancePlan": {
+            "regionOfPlanGovernance": "Manitoba",
+            "planAllowedAgeOfRetirement": "65",
+            "plan1": {
+              "amount": "3899",
+              "planType": "Life Income Fund (LIF)",
+              "institution": "A M Best Canada",
+              "planNo": "353569224369852"
+            },
+            "plan2": {
+              "amount": "56982",
+              "planType": "Locked-in Retirement Account (LIRA)",
+              "institution": "Aoulous Inc",
+              "planNo": "563245541514289"
+            }
+          }
+        }},
+        {"initialFundingLrsp": {
+          "governancePlan": {
+            "regionOfPlanGovernance": "Prince Edward Island",
+            "planAllowedAgeOfRetirement": "65",
+            "plan1": {
+              "amount": "56982",
+              "planType": "Life Income Fund (LIF)",
+              "institution": "Munchups",
+              "planNo": "3995889959325"
+            },
+            "plan2": {
+              "amount": "23695",
+              "planType": "Life Income Fund (LIF)",
+              "institution": "Thunder",
+              "planNo": "9294787285252"
+            }
+          }
+        }},
+        {"initialFundingLif": {
+          "governancePlan": {
+            "regionOfPlanGovernance": "Ontario",
+            "planAllowedAgeOfRetirement": "",
+            "plan1": {
+              "amount": "93783",
+              "planType": "Registered Pension Plan (RPP)",
+              "institution": "2OILER INSPECTION & INSURANCE",
+              "planNo": "294895847892972"
+            },
+            "plan2": {
+              "amount": "84739",
+              "planType": "Locked-in Retirement Account (LIRA)",
+              "institution": "ACE INA INSURANCE",
+              "planNo": "57892892948925"
+            }
+          }
+        }}
+      ],
+      "settlement": [
+        {"settlementNonregistered": {
+          "settlementCurrency": "USD (Trades will settle in USD currency)"
+        }},
+        {"settlementRsp": {
+          "settlementCurrency": "CAD (Trades will settle in CAD currency)"
+        }},
+        {"settlementTfsa": {
+          "settlementCurrency": "CAD (Trades will settle in CAD currency)"
+        }},
+        {"settlementSrsp": {
+          "settlementCurrency": "All (Trades will settle in currency of executing market)"
+        }},
+        {"settlementRif": {
+          "settlementCurrency": "USD (Trades will settle in USD currency)"
+        }},
+        {"settlementSrif": {
+          "settlementCurrency": "All (Trades will settle in currency of executing market)"
+        }},
+        {"settlementLira": {
+          "settlementCurrency": "CAD (Trades will settle in CAD currency)"
+        }},
+        {"settlementLrsp": {
+          "settlementCurrency": "CAD (Trades will settle in CAD currency)"
+        }},
+        {"settlementLif": {
+          "settlementCurrency": "All (Trades will settle in currency of executing market)"
+        }}
+      ],
+      "communications": [
+        {
+          "shareWithSecurityIssuers": [
+            {"communicationsNonregistered":
+            {"willShareWithSecurityIssuers":  "I object"}
+            },
+            {"communicationsRsp":
+            {"willShareWithSecurityIssuers":  "I do not object"}
+            },
+            {"communicationsTfsa":
+            {"willShareWithSecurityIssuers":  "I object"}
+            },
+            {"communicationsSrsp":
+            {"willShareWithSecurityIssuers":  "I do not object"}
+            },
+            {"communicationsRif":
+            {"willShareWithSecurityIssuers":  "I object"}
+            },
+            {"communicationsSrif":
+            {"willShareWithSecurityIssuers":  "I do not object"}
+            },
+            {"communicationsLira":
+            {"willShareWithSecurityIssuers":  "I object"}
+            },
+            {"communicationsLrsp":
+            {"willShareWithSecurityIssuers":  "I do not object"}
+            },
+            {"communicationsLif":
+            {"willShareWithSecurityIssuers":  "I object"}
+            }
+          ]
+        },
+        {
+          "materialsToReceive": [
+            {"communicationsNonregistered":
+            {"selectMaterialsToReceive":  "No materials"}
+            },
+            {"communicationsRsp":
+            {"selectMaterialsToReceive":  "Only proxy-related material related to special meetings"}
+            },
+            {"communicationsTfsa":
+            {"selectMaterialsToReceive":  "All materials"}
+            },
+            {"communicationsSrsp":
+            {"selectMaterialsToReceive":  "No materials"}
+            },
+            {"communicationsRif":
+            {"selectMaterialsToReceive":  "Only proxy-related material related to special meetings"}
+            },
+            {"communicationsSrif":
+            {"selectMaterialsToReceive":  "All materials"}
+            },
+            {"communicationsLira":
+            {"selectMaterialsToReceive":  "No materials"}
+            },
+            {"communicationsLrsp":
+            {"selectMaterialsToReceive":  "Only proxy-related material related to special meetings"}
+            },
+            {"communicationsLif":
+            {"selectMaterialsToReceive":  "All materials"}
+            }
+          ]
+        },
+        {
+          "scotiaERecordEnrollment": [
+            {"communicationsNonregistered":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "Yes",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "Yes",
+              "receiveTaxDocuments":  "Yes"}
+            },
+            {"communicationsRsp":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "No",
+              "receiveAnnualTradingSummaries":  "No",
+              "receiveConfirmsMutualFundProspectuses":  "Yes",
+              "receiveTaxDocuments":  "Yes"}
+            },
+            {"communicationsTfsa":
+            {"scotiaERecordEnrollment":  "No",
+              "receiveStatements": "",
+              "receiveAnnualTradingSummaries":  "",
+              "receiveConfirmsMutualFundProspectuses":  "",
+              "receiveTaxDocuments":  ""}
+            },
+            {"communicationsSrsp":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "Yes",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "No",
+              "receiveTaxDocuments":  "No"}
+            },
+            {"communicationsRif":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "No",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "No",
+              "receiveTaxDocuments":  "Yes"}
+            },
+            {"communicationsSrif":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "Yes",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "Yes",
+              "receiveTaxDocuments":  "Yes"}
+            },
+            {"communicationsLira":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "Yes",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "Yes",
+              "receiveTaxDocuments":  "Yes"}
+            },
+            {"communicationsLrsp":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "No",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "No",
+              "receiveTaxDocuments":  "Yes"}
+            },
+            {"communicationsLif":
+            {"scotiaERecordEnrollment":  "Yes",
+              "receiveStatements": "Yes",
+              "receiveAnnualTradingSummaries":  "Yes",
+              "receiveConfirmsMutualFundProspectuses":  "Yes",
+              "receiveTaxDocuments":  "Yes"}
+            }
+          ]
+        }
+      ],
+      "bankAccounts": [
+        {"bankInfoCDN": {
+          "currency": "CDN",
+          "institutionName": "Bank of Tokyo Mitsubishi (Canada)",
+          "bankTransitNo": "00398",
+          "bankAccountNumber": "393869030927",
+          "bankAccountType": "Chequing"
+        }},
+        {"bankInfoUS": {
+          "currency": "US",
+          "institutionName": "AGF Trust Company",
+          "bankTransitNo": "00399",
+          "bankAccountNumber": "393869030929",
+          "bankAccountType": "Chequing"
+        }}
+      ],
+      "paymentInstructions": [
+        {"paymentInstructionsNonregistered": {
+          "transferFixedAmountMonthly": {
+            "transferFixedAmount": "",
+            "monthlyFixedAmount": ""
+          },
+          "transferInterestIncome": "Semi-Monthly"
+        }},
+        {"paymentInstructionsRsp": {
+          "paymentFrequency": "",
+          "paymentOption": "",
+          "amount": "",
+          "paymentMethod": "",
+          "accountNumber": "",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "",
+            "day": "",
+            "year": ""
+          }
+        }},
+        {"paymentInstructionsTfsa": {
+          "paymentFrequency": "",
+          "paymentOption": "",
+          "amount": "",
+          "paymentMethod": "",
+          "accountNumber": "",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "",
+            "day": "",
+            "year": ""
+          }
+        }},
+        {"paymentInstructionsSrsp": {
+          "paymentFrequency": "",
+          "paymentOption": "",
+          "amount": "",
+          "paymentMethod": "",
+          "accountNumber": "",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "",
+            "day": "",
+            "year": ""
+          }
+        }},
+        {"paymentInstructionsRif": {
+          "paymentFrequency": "Annually",
+          "paymentOption": "Other - Net Amount (after Tax)",
+          "amount": "2000",
+          "paymentMethod": "Deposit to bank account",
+          "accountNumber": "",
+          "ongoingPaymentDay": "15th of month",
+          "firstPaymentDate": {
+            "monthShort": "Dec",
+            "monthLong": "",
+            "day": "",
+            "year": "2021"
+          }
+        }},
+        {"paymentInstructionsSrif": {
+          "paymentFrequency": "Quarterly",
+          "paymentOption": "Other - Gross Amount",
+          "amount": "2500",
+          "paymentMethod": "ScotiaMcLeod non-registered account",
+          "accountNumber": "1234567891",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "March",
+            "day": "15",
+            "year": "2021"
+          }
+        }},
+        {"paymentInstructionsLira": {
+          "paymentFrequency": "",
+          "paymentOption": "",
+          "amount": "",
+          "paymentMethod": "",
+          "accountNumber": "",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "",
+            "day": "",
+            "year": ""
+          }
+        }},
+        {"paymentInstructionsLrsp": {
+          "paymentFrequency": "",
+          "paymentOption": "",
+          "amount": "",
+          "paymentMethod": "",
+          "accountNumber": "",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "",
+            "day": "",
+            "year": ""
+          }
+        }},
+        {"paymentInstructionsLif": {
+          "paymentFrequency": "Semi-Annually",
+          "paymentOption": "Maximum",
+          "amount": "",
+          "paymentMethod": "Forward cheque to mailing address",
+          "accountNumber": "",
+          "ongoingPaymentDay": "",
+          "firstPaymentDate": {
+            "monthShort": "",
+            "monthLong": "April",
+            "day": "14",
+            "year": "2021"
+          }
+        }}
+      ],
+      "beneficiaries": {
+        "person": {
+          "firstName": "Wyatt",
+          "lastName": "Jackson",
+          "sin": "259234326"
+        },
+        "company": {
+          "companyName": "Brichand Forest"
+        },
+        "beneficiaryAccounts": [
+          {"beneficiaryNonregistered": {
+            "beneficiary1": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            },
+            "beneficiary2": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            }
+          }},
+          {"beneficiaryRsp": {
+            "beneficiary1": {
+              "relationship": "Daughter",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "100"
+            },
+            "beneficiary2": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            }
+          }},
+          {"beneficiaryTfsa": {
+            "SpouseAsSuccessor": "",
+            "beneficiary1": {
+              "relationship": "Daughter",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "50"
+            },
+            "beneficiary2": {
+              "relationship": "Company",
+              "beneficiary": "Brichand Forest",
+              "allocation": "50"
+            }
+          }},
+          {"beneficiarySrsp": {
+            "beneficiary1": {
+              "relationship": "Brother",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "100"
+            },
+            "beneficiary2": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            }
+          }},
+          {"beneficiaryRif": {
+            "SpouseAsAnnuitant": "",
+            "beneficiary1": {
+              "relationship": "Sister",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "100"
+            },
+            "beneficiary2": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            }
+          }},
+          {"beneficiarySrif": {
+            "SpouseAsAnnuitant": "",
+            "beneficiary1": {
+              "relationship": "Mother",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "100"
+            },
+            "beneficiary2": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            }
+          }},
+          {"beneficiaryLira": {
+            "beneficiary1": {
+              "relationship": "Father",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "100"
+            },
+            "beneficiary2": {
+              "relationship": "",
+              "beneficiary": "",
+              "allocation": ""
+            }
+          }},
+          {"beneficiaryLrsp": {
+            "beneficiary1": {
+              "relationship": "Other",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "60"
+            },
+            "beneficiary2": {
+              "relationship": "Company",
+              "beneficiary": "Brichand Forest",
+              "allocation": "40"
+            }
+          }},
+          {"beneficiaryLif": {
+            "beneficiary1": {
+              "relationship": "Son",
+              "beneficiary": "Wyatt Jackson, SIN# 259234326",
+              "allocation": "30"
+            },
+            "beneficiary2": {
+              "relationship": "Company",
+              "beneficiary": "Brichand Forest",
+              "allocation": "70"
+            }
+          }}
+        ]}
+    },
+    "AdditionalInformation": {
+      "additionalRegulatory": [
+        {"intendedUseNonregistered": {
+          "intendedUse": "Long Term Investment",
+          "other": "",
+          "expectedActivity": "CASH - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "CASH - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseRsp": {
+          "intendedUse": "Income Generation",
+          "other": "",
+          "expectedActivity": "RSP - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "RSP - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseTfsa": {
+          "intendedUse": "Savings (Registered and non-registered)",
+          "other": "",
+          "expectedActivity": "TFSA - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "TFSA - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseSrsp": {
+          "intendedUse": "Retirement Planning",
+          "other": "",
+          "expectedActivity": "SRSP - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "SRSP - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseRif": {
+          "intendedUse": "Estate/Tax Planning",
+          "other": "",
+          "expectedActivity": "RIF - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "RIF - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseSrif": {
+          "intendedUse": "Custody of Securities",
+          "other": "",
+          "expectedActivity": "SRIF - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "SRIF - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseLira": {
+          "intendedUse": "Leverage",
+          "other": "",
+          "expectedActivity": "LIRA - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "LIRA - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseLrsp": {
+          "intendedUse": "Hedging",
+          "other": "",
+          "expectedActivity": "LRSP - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "LRSP - Sale of assets, earnings from business ownership or personal employment"
+        }},
+        {"intendedUseLif": {
+          "intendedUse": "Other",
+          "other": "Other Intended Use for Testing",
+          "expectedActivity": "LIF - Two deposits approximating $2,000 CAD and 25 trades approximating $10,000 CAD per month",
+          "sourceOfFunds": "LIF - Sale of assets, earnings from business ownership or personal employment"
+        }}
+      ]
+    },
+    "Roles": {
+      "accountRoles": {
+        "addPOA": "Yes",
+        "poas": [
+          {"accountRole1": {
+            "existingRelationships": "",
+            "newOrExistingClient": "New",
+            "checkForAllAccounts": "Yes",
+            "sameRoleForAllAccounts": "Limited POA",
+            "rolesOfAccounts": [
+              {"role1": ""},
+              {"role2": ""},
+              {"role3": ""},
+              {"role4": ""},
+              {"role5": ""},
+              {"role6": ""},
+              {"role7": ""},
+              {"role8": ""},
+              {"role9": ""}
+            ],
+            "clientName": {
+              "clientTitle": "Mr",
+              "firstName": "Audrey",
+              "clientMiddleInitial": "C",
+              "lastName": "Robinson"
+            },
+            "birthDate": {
+              "year": "1981",
+              "month": "June",
+              "day": "30"
+            },
+            "language": "English",
+            "mothersMaidenName": "Diana",
+            "contact": {
+              "homeAddress": {
+                "streetAddress": "41 bay street West",
+                "unitType": "Floor",
+                "unit": "12",
+                "city": "Toronto",
+                "country": "Canada",
+                "additionalAddress": "Test Address",
+                "province": "Ontario",
+                "postalcode": "L6R2X9"
+              },
+              "contactInformation": {
+                "homePhone": "4379119031",
+                "mobilePhone": "6423453932",
+                "businessPhone": "6423453933",
+                "businessExt": "678",
+                "preferred": "Mobile",
+                "emailAddress": "nikhil.agrawal@scotiabank.com",
+                "emailType": "Business Email"
+              }
+            },
+            "identification": {
+              "identificationDocType": "Newfoundland and Labrador Identification Card",
+              "identificationDocNo": "395788396782",
+              "issuingCountry": "Canada",
+              "issuingJurisdiction": "Newfoundland and Labrador",
+              "expiryMonth": "February",
+              "expiryDay": "1",
+              "expiryYear": "2026",
+              "expiryDate": "2026-02-01"
+            },
+            "taxStatus": {
+              "citizenship": "Canadian"
+            },
+            "employment": {
+              "status": "Employed",
+              "scotiaEmployer": "No",
+              "noPreviousEmploymentHistory": "No",
+              "employerName": "ABC co.",
+              "scotiaLineOfBusiness": "",
+              "employedFor": "2 years - 5 years",
+              "scotiaInsider": "",
+              "industry": "Manufacturing",
+              "occupation": "Machinist",
+              "streetAddress": "40 King Street West",
+              "unitType": "Apt",
+              "unit": "133",
+              "country": "India",
+              "city": "Mumbai",
+              "state": "Mah",
+              "postalCode": "A1B1C1"
+            },
+            "familyInformation": {
+              "maritalStatus": "Married",
+              "title": "Mrs",
+              "firstName": "Anna",
+              "initial": "AK",
+              "lastName": "Kaur",
+              "status": "Employed",
+              "employerName": "Spouse Test Employer",
+              "industry": "Educational Services",
+              "occupation": "Counselor"
+            },
+            "relationshipDisclosures": {
+              "deemedInsider": {
+                "hasInsiderCompanies": "Yes",
+                "insiderCompanies": ["Insider1","Insider2","Insider3"]
+              },
+              "controlPerson": {
+                "hasControlCompanies": "Yes",
+                "controlCompanies": ["Control1","Control2","Control3"]
+              },
+              "isClientPro": {
+                "isPro": "Yes",
+                "proCompanies": ["Pro1","Pro2","Pro3"]
+              },
+              "tradingAuthority": {
+                "hasTradingAuthority": "Yes",
+                "accountNumbers": ["34567891","45678912","56789123"]
+              },
+              "anotherSecuritiesFirm": {
+                "hasAnotherSecuritiesFirm": "Yes",
+                "firmNames": ["Firm1","Firm2","Firm3"]
+              }
+            },
+            "additionalInfo": {
+              "metFaceToFace": "Yes"
+            },
+            "poaInvestmentKnowledge": {
+              "overallInvestmentKnowledge": "Limited",
+              "mfKnowledge": "Moderate",
+              "fixIncomeKnowledge": "Limited",
+              "stockKnowledge": "Extensive",
+              "marginKnowledge": "Moderate",
+              "equityOptionsKnowledge": "Limited",
+              "shortSaleKnowledge": "Limited"
+            }
+          }},
+          {"accountRole2": {
+            "existingRelationships": "",
+            "newOrExistingClient": "New",
+            "checkForAllAccounts": "Yes",
+            "sameRoleForAllAccounts": "Legal POA",
+            "rolesOfAccounts": [
+              {"role1": ""},
+              {"role2": ""},
+              {"role3": ""},
+              {"role4": ""},
+              {"role5": ""},
+              {"role6": ""},
+              {"role7": ""},
+              {"role8": ""},
+              {"role9": ""}
+            ],
+            "clientName": {
+              "clientTitle": "Dr",
+              "firstName": "John",
+              "clientMiddleInitial": "D",
+              "lastName": "Matthew"
+            },
+            "birthDate": {
+              "year": "1967",
+              "month": "August",
+              "day": "12"
+            },
+            "language": "French",
+            "mothersMaidenName": "Sophia",
+            "contact": {
+              "homeAddress": {
+                "streetAddress": "1 Rosemount Drive",
+                "unitType": "Apt",
+                "unit": "516",
+                "city": "Toronto",
+                "country": "Canada",
+                "additionalAddress": "Demo Address",
+                "province": "Ontario",
+                "postalcode": "M1K2W5"
+              },
+              "contactInformation": {
+                "homePhone": "7379119034",
+                "mobilePhone": "8423453935",
+                "businessPhone": "1423453936",
+                "businessExt": "786",
+                "preferred": "Business",
+                "emailAddress": "nikhilagraw@gmail.com",
+                "emailType": "Personal Email"
+              }
+            },
+            "identification": {
+              "identificationDocType": "Passport",
+              "identificationDocNo": "45612345678",
+              "issuingCountry": "Austria",
+              "issuingJurisdiction": "Austria Jurisdiction",
+              "expiryMonth": "October",
+              "expiryDay": "13",
+              "expiryYear": "2045",
+              "expiryDate": "2045-10-13"
+            },
+            "taxStatus": {
+              "citizenship": "Canadian"
+            },
+            "employment": {
+              "status": "Employed",
+              "scotiaEmployer": "No",
+              "noPreviousEmploymentHistory": "No",
+              "employerName": "XYZ co.",
+              "scotiaLineOfBusiness": "",
+              "employedFor": "2 years - 5 years",
+              "scotiaInsider": "",
+              "industry": "Manufacturing",
+              "occupation": "Machinist",
+              "streetAddress": "44 King Street West",
+              "unitType": "Suite",
+              "unit": "800",
+              "country": "Canada",
+              "city": "Toronto",
+              "state": "Ontario",
+              "postalCode": "L6B1N3"
+            },
+            "familyInformation": {
+              "maritalStatus": "Married",
+              "title": "Mrs",
+              "firstName": "Dianna",
+              "initial": "DM",
+              "lastName": "Matthew",
+              "status": "Employed",
+              "employerName": "Spouse Demo Employer",
+              "industry": "Manufacturing",
+              "occupation": "Packer"
+            },
+            "relationshipDisclosures": {
+              "deemedInsider": {
+                "hasInsiderCompanies": "Yes",
+                "insiderCompanies": ["Insider4","Insider5"]
+              },
+              "controlPerson": {
+                "hasControlCompanies": "Yes",
+                "controlCompanies": ["Control4","Control5"]
+              },
+              "isClientPro": {
+                "isPro": "Yes",
+                "proCompanies": ["Pro4","Pro5"]
+              },
+              "tradingAuthority": {
+                "hasTradingAuthority": "Yes",
+                "accountNumbers": ["64987123","71234567","81231231"]
+              },
+              "anotherSecuritiesFirm": {
+                "hasAnotherSecuritiesFirm": "Yes",
+                "firmNames": ["Firm4","Firm5"]
+              }
+            },
+            "additionalInfo": {
+              "metFaceToFace": "No"
+            },
+            "poaInvestmentKnowledge": {
+              "overallInvestmentKnowledge": "Moderate",
+              "mfKnowledge": "Limited",
+              "fixIncomeKnowledge": "Extensive",
+              "stockKnowledge": "Moderate",
+              "marginKnowledge": "Limited",
+              "equityOptionsKnowledge": "Moderate",
+              "shortSaleKnowledge": "Moderate"
+            }
+          }}
+        ]
+      }
+    },
+    "Product": {
+      "productDetailCapture": "Online",
+      "investmentQuestionnaire": [
+        {
+          "investmentQuestionnaireNonregistered": {
+            "mainGoals": ["Retirement Savings","Retirement Income","Current Income","Savings","Trust/endowment","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation CASH",
+            "investmentTimeHorizon": "Short Term (<3 Years)",
+            "investmentObjectives": "Capital Preservation",
+            "assetAllocation": "Fixed Income 100%",
+            "riskTolerance": "Low Risk",
+            "approachToInvesting": "Investments that generate a more stable return year to year",
+            "investmentComfortLevel": "Risk should always be minimized",
+            "investmentFluctuations": "I can accept some variation in returns.",
+            "incomeFromInvestment": "Yes, all the income generated and a portion of the capital.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 1","SE Company 2","SE Company 3","SE Company 4","SE Company 5","SE Company 6","SE Company 7","SE Company 8","SE Company 9","SE Company 10"],
+            "securitiesExclusionStockSymbols": ["SEStock1","SEStock2","SEStock3","SEStock4","SEStock5","SEStock6","SEStock7","SEStock8","SEStock9","SEStock10"],
+            "additionalInformation": "IQ Additional Information CASH Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireRsp": {
+            "mainGoals": ["Retirement Savings","","Current Income","Savings","","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation RSP",
+            "investmentTimeHorizon": "Medium Term (3-7 Years)",
+            "investmentObjectives": "Conservative Income",
+            "assetAllocation": "Fixed Income 75% - Equities 25%",
+            "riskTolerance": "Low to Medium",
+            "approachToInvesting": "Comfortable with volatility",
+            "investmentComfortLevel": "Comfortable with taking some risks",
+            "investmentFluctuations": "I can accept larger fluctuations in the portfolio's value.",
+            "incomeFromInvestment": "Yes, a portion of the income should be sent to me, with the balance reinvested.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 11","SE Company 12","SE Company 13","SE Company 14"],
+            "securitiesExclusionStockSymbols": ["SEStock11","SEStock12","SEStock13","SEStock14"],
+            "additionalInformation": "IQ Additional Information RSP Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireTfsa": {
+            "mainGoals": ["","Retirement Income","Current Income","Savings","Trust/endowment","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation TFSA",
+            "investmentTimeHorizon": "Long Term (7+ Years)",
+            "investmentObjectives": "Balanced Income",
+            "assetAllocation": "Fixed Income 60% - Equities 40%",
+            "riskTolerance": "Medium to High",
+            "approachToInvesting": "More aggressive investments",
+            "investmentComfortLevel": "Comfortable with higher risk investments",
+            "investmentFluctuations": "Yes, I agree totally with the statement.",
+            "incomeFromInvestment": "Yes, all the income generated and a portion of the capital.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 21","SE Company 22","SE Company 23"],
+            "securitiesExclusionStockSymbols": ["SEStock21","SEStock22","SEStock23"],
+            "additionalInformation": "IQ Additional Information TFSA Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireSrsp": {
+            "mainGoals": ["Retirement Savings","Retirement Income","Current Income","Savings","Trust/endowment","","Other"],
+            "mainGoalsOtherDescription": "SIP Automation SRSP",
+            "investmentTimeHorizon": "Short Term (<3 Years)",
+            "investmentObjectives": "Balanced",
+            "assetAllocation": "Fixed Income 50% - Equities 50%",
+            "riskTolerance": "Low to Medium",
+            "approachToInvesting": "Roughly half assets to be investments in fixed income, the balance to be invested in equities",
+            "investmentComfortLevel": "Risk should always be minimized",
+            "investmentFluctuations": "I can accept some variation in returns.",
+            "incomeFromInvestment": "No, all the income generated should be reinvested.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 31","SE Company 32","SE Company 33"],
+            "securitiesExclusionStockSymbols": ["SEStock31","SEStock32","SEStock33"],
+            "additionalInformation": "IQ Additional Information SRSP Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireRif": {
+            "mainGoals": ["Retirement Savings","Retirement Income","Current Income","Savings","Trust/endowment","Providing a bequest",""],
+            "mainGoalsOtherDescription": "SIP Automation RIF",
+            "investmentTimeHorizon": "Medium Term (3-7 Years)",
+            "investmentObjectives": "Balanced Growth",
+            "assetAllocation": "Fixed Income 40% - Equities 60%",
+            "riskTolerance": "Medium Risk",
+            "approachToInvesting": "Comfortable with volatility",
+            "investmentComfortLevel": "Comfortable with taking some risks",
+            "investmentFluctuations": "I can accept larger fluctuations in the portfolio's value.",
+            "incomeFromInvestment": "Yes, all the income generated and a portion of the capital.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 41","SE Company 42"],
+            "securitiesExclusionStockSymbols": ["SEStock41","SEStock42"],
+            "additionalInformation": "IQ Additional Information RIF Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireSrif": {
+            "mainGoals": ["Retirement Savings","","","Savings","Trust/endowment","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation SRIF",
+            "investmentTimeHorizon": "Long Term (7+ Years)",
+            "investmentObjectives": "Moderate Growth",
+            "assetAllocation": "Fixed Income 25% - Equities 75%",
+            "riskTolerance": "Medium to High",
+            "approachToInvesting": "More aggressive investments",
+            "investmentComfortLevel": "Comfortable with higher risk investments",
+            "investmentFluctuations": "Yes, I agree totally with the statement.",
+            "incomeFromInvestment": "Yes, all the income generated should be sent to me.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 51"],
+            "securitiesExclusionStockSymbols": ["SEStock51"],
+            "additionalInformation": "IQ Additional Information SRIF Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireLira": {
+            "mainGoals": ["Retirement Savings","Retirement Income","Current Income","Savings","Trust/endowment","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation LIRA",
+            "investmentTimeHorizon": "Short Term (<3 Years)",
+            "investmentObjectives": "Growth",
+            "assetAllocation": "Equities 100%",
+            "riskTolerance": "High Risk",
+            "approachToInvesting": "More aggressive investments",
+            "investmentComfortLevel": "Comfortable with taking some risks",
+            "investmentFluctuations": "I can accept larger fluctuations in the portfolio's value.",
+            "incomeFromInvestment": "Yes, a portion of the income should be sent to me, with the balance reinvested.",
+            "securitiesExclusion": "Yes",
+            "securitiesExclusionCompanies": ["SE Company 61"],
+            "securitiesExclusionStockSymbols": ["SEStock61"],
+            "additionalInformation": "IQ Additional Information LIRA Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireLrsp": {
+            "mainGoals": ["Retirement Savings","Retirement Income","Current Income","Savings","Trust/endowment","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation LRSP",
+            "investmentTimeHorizon": "Medium Term (3-7 Years)",
+            "investmentObjectives": "Conservative Income",
+            "assetAllocation": "Fixed Income 75% - Equities 25%",
+            "riskTolerance": "Low to Medium",
+            "approachToInvesting": "Roughly half assets to be investments in fixed income, the balance to be invested in equities",
+            "investmentComfortLevel": "Comfortable with taking some risks",
+            "investmentFluctuations": "I can accept larger fluctuations in the portfolio's value.",
+            "incomeFromInvestment": "Yes, all the income generated should be sent to me.",
+            "securitiesExclusion": "No",
+            "securitiesExclusionCompanies": "",
+            "securitiesExclusionStockSymbols": "",
+            "additionalInformation": "IQ Additional Information LRSP Free Text"
+          }
+        },
+        {
+          "investmentQuestionnaireLif": {
+            "mainGoals": ["Retirement Savings","Retirement Income","Current Income","","Trust/endowment","Providing a bequest","Other"],
+            "mainGoalsOtherDescription": "SIP Automation LIF",
+            "investmentTimeHorizon": "Long Term (7+ Years)",
+            "investmentObjectives": "Conservative Income",
+            "assetAllocation": "Fixed Income 75% - Equities 25%",
+            "riskTolerance": "Medium Risk",
+            "approachToInvesting": "More aggressive investments",
+            "investmentComfortLevel": "Comfortable with higher risk investments",
+            "investmentFluctuations": "Yes, I agree totally with the statement.",
+            "incomeFromInvestment": "No, all the income generated should be reinvested.",
+            "securitiesExclusion": "No",
+            "securitiesExclusionCompanies": "",
+            "securitiesExclusionStockSymbols": "",
+            "additionalInformation": "IQ Additional Information LIF Free Text"
+          }
+        }
+      ],
+      "mandateInformation": [
+        {
+          "mandateInformationNonregistered": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "North American Fixed Income(%) - 100/0/0 | 80/20/0",
+            "fiPortfolioWeight": "100",
+            "equities": "",
+            "eqPortfolioWeight": "",
+            "income": "100",
+            "growth": "0",
+            "speculative": "0",
+            "low": "80",
+            "medium": "20",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationRsp": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "U.S. Fixed Income(%) - 75/25/0 | 80/20/0",
+            "fiPortfolioWeight": "75",
+            "equities": "Canadian Equity(%) - 0/100/0 | 0/100/0",
+            "eqPortfolioWeight": "25",
+            "income": "56",
+            "growth": "44",
+            "speculative": "0",
+            "low": "60",
+            "medium": "40",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationTfsa": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "Capital Preservation Bond(%) - 100/0/0 | 80/20/0",
+            "fiPortfolioWeight": "60",
+            "equities": "Canadian Dividend(%) - 30/70/0 | 0/100/0",
+            "eqPortfolioWeight": "40",
+            "income": "72",
+            "growth": "28",
+            "speculative": "0",
+            "low": "48",
+            "medium": "52",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationSrsp": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "Core Bond(%) - 100/0/0 | 100/0/0",
+            "fiPortfolioWeight": "50",
+            "equities": "North American Dividend(%) - 30/70/0 | 0/100/0",
+            "eqPortfolioWeight": "50",
+            "income": "65",
+            "growth": "35",
+            "speculative": "0",
+            "low": "50",
+            "medium": "50",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationRif": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "High Income Bond(%) - 90/10/0 | 85/15/0",
+            "fiPortfolioWeight": "40",
+            "equities": "International Equity ADR(%) - 0/100/0 | 0/100/0",
+            "eqPortfolioWeight": "60",
+            "income": "36",
+            "growth": "64",
+            "speculative": "0",
+            "low": "34",
+            "medium": "66",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationSrif": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "5 Year Laddered Canadian Bond(%) - 100/0/0 | 100/0/0",
+            "fiPortfolioWeight": "25",
+            "equities": "Global Equity ADR(%) - 0/100/0 | 0/100/0",
+            "eqPortfolioWeight": "75",
+            "income": "25",
+            "growth": "75",
+            "speculative": "0",
+            "low": "25",
+            "medium": "75",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationLira": {
+            "mandateType": "Fixed Income / Equities",
+            "fixedIncome": "",
+            "fiPortfolioWeight": "",
+            "equities": "Total Equity Mandate(%) - 0/100/0 | 0/90/10",
+            "eqPortfolioWeight": "100",
+            "income": "0",
+            "growth": "100",
+            "speculative": "0",
+            "low": "0",
+            "medium": "90",
+            "high": "10"
+          }
+        },
+        {
+          "mandateInformationLrsp": {
+            "mandateType": "All-Pools Portfolio",
+            "fixedIncome": "Conservative Income Portfolio(%) - 80/20/0 | 75/25/0",
+            "fiPortfolioWeight": "",
+            "equities": "",
+            "eqPortfolioWeight": "",
+            "income": "80",
+            "growth": "20",
+            "speculative": "0",
+            "low": "75",
+            "medium": "25",
+            "high": "0"
+          }
+        },
+        {
+          "mandateInformationLif": {
+            "mandateType": "ETF Portfolio",
+            "fixedIncome": "Conservative Income ETF Portfolio(%) - 75/25/0 | 75/25/0",
+            "fiPortfolioWeight": "",
+            "equities": "",
+            "eqPortfolioWeight": "",
+            "income": "75",
+            "growth": "25",
+            "speculative": "0",
+            "low": "75",
+            "medium": "25",
+            "high": "0"
+          }
+        }
+      ],
+      "schedule": [
+        {
+          "scheduleNonregistered": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.50", "1.35", "1.11", "0.89", "0.50"]
+          }
+        },
+        {
+          "scheduleRsp": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.49", "1.37", "1.12", "0.91", "0.51"]
+          }
+        },
+        {
+          "scheduleTfsa": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.46", "1.26", "1.13", "0.92", "0.46"]
+          }
+        },
+        {
+          "scheduleSrsp": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.49", "1.27", "1.14", "0.86", "0.47"]
+          }
+        },
+        {
+          "scheduleRif": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.56", "1.36", "1.16", "0.93", "0.53"]
+          }
+        },
+        {
+          "scheduleSrif": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.58", "1.38", "1.18", "0.94", "0.54"]
+          }
+        },
+        {
+          "scheduleLira": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.59", "1.39", "1.19", "0.95", "0.55"]
+          }
+        },
+        {
+          "scheduleLrsp": {
+            "productFee": ["0.28%", "0.28%", "0.28%", "0.28%", "0.28%"],
+            "clientFee": ["1.60", "1.40", "1.20", "0.96", "0.56"]
+          }
+        },
+        {
+          "scheduleLif": {
+            "productFee": ["0.09%", "0.09%", "0.09%", "0.09%", "0.09%"],
+            "clientFee": ["1.32", "1.07", "0.92", "0.67", "0.27"]
+          }
+        }
+      ]
+    }
+  }
+}
