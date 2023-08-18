@@ -24,8 +24,8 @@ public class RemoteWebMethod {
 		 
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability("browserName", "chrome");		
-		cap.setCapability("browserVersion","79.0" );
-		cap.setCapability("enableVNC", true);
+		//cap.setCapability("browserVersion","79.0" );
+		//cap.setCapability("enableVNC", true);
 		cap.setCapability(ChromeOptions.CAPABILITY, co);
 		
 			URL url = new URL("http://localhost:4444/wd/hub");
