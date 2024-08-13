@@ -39,22 +39,23 @@ public class DBConnectionLearn {
 			
 	
 	try{
-		String query = "select * from EMPINFO";
+		String query = "select * from EMPINFO where name='Rajat'";
 		// Get the contents of userinfo table from DB
 		
 		res = stmt.executeQuery(query);
 		// Print the result untill all the records are printed
 		// res.next() returns true if there is any next record else returns false
 		res.first();
-		while (res.next())
-		{
-			
-		System.out.print(res.getString(1));
-		System.out.print(" " + res.getString(2));
-		System.out.print(" " + res.getString(3));
-		System.out.print(" " + res.getString(4));
-		System.out.println(" " + res.getString(5));
-		}
+		System.out.println(res.getString("city"));
+//		while (res.next())
+//		{
+//			
+//		System.out.print(res.getString(1));
+//		System.out.print(" " + res.getString(2));
+//		System.out.print(" " + res.getString(3));
+//		System.out.print(" " + res.getString(4));
+//		System.out.println(" " + res.getString(5));
+//		}
 		}
 		catch(Exception e)
 		{

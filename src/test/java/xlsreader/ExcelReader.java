@@ -20,7 +20,7 @@ public static void main (String[]s) {
 	String path = "C:\\Users\\praja\\eclipse-workspace\\Javalearning\\Mybook.xlsx";
 	HashMap<String, String>data =Readfile(path,"Sheet1","Rajat");
 	data.forEach((k,v) -> System.out.println(k+"  "+v));
-	String p=data.get("address");
+	String p=data.get("city");
 	System.out.println(p);
 	
 }
@@ -39,7 +39,9 @@ public static HashMap<String, String> Readfile(String path,String SheetName,Stri
 	String TEMPTC;
 	
 	int Rowcount=sheet.getLastRowNum()-sheet.getFirstRowNum();
-	//System.out.println(Rowcount);
+	System.out.println(sheet.getLastRowNum());
+	System.out.println(sheet.getFirstRowNum());
+	System.out.println(Rowcount);
 	for(int i=0;i<Rowcount;i++) {
 		Row row = sheet.getRow(i+1);
 		TEMPTC =row.getCell(0).getStringCellValue().trim(); 
