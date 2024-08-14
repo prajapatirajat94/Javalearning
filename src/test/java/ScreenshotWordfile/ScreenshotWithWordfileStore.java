@@ -2,6 +2,7 @@ package ScreenshotWordfile;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.*;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -38,9 +39,9 @@ fnCaptureScreen(true,"TEST_PASS",driver);
 		
 		Thread.sleep(250);
 		//taking screenshot in specific folder
-		String strImageFolderPath="./Screenshot/";
+		String strImageFolderPath="./Screenshot";
 		
-		File folder=new File(strImageFolderPath+"/");
+		File folder=new File(strImageFolderPath);
 		if(!folder.exists()) {
 			folder.mkdir();
 		}
@@ -56,7 +57,7 @@ fnCaptureScreen(true,"TEST_PASS",driver);
 			ImageIO.write(scrShot, "PNG", new File(sFullImageFileName));
 						
 		}
-		
+		System.out.println("Full image path is :- "+sFullImageFileName);
 		//Writing Decription and screenshot in word file
 		fnWriteInDocxFile(sFullImageFileName,stepDecs,takePict);
 		
@@ -124,7 +125,7 @@ public static void fnWriteInDocxFile(String imgFullFileName, String message, boo
 				para1.setBorderBottom(Borders.THREE_D_EMBOSS);
 				
 				InputStream pic = new FileInputStream(imgFullFileName);
-				
+				System.out.println(imgFullFileName);
 				run1.addPicture(pic, 6, imgFullFileName, Units.toEMU(465), Units.toEMU(250));
 				pic.close();
 				
@@ -164,7 +165,7 @@ public static void fnWriteInDocxFile(String imgFullFileName, String message, boo
 					para1.setBorderBottom(Borders.THREE_D_EMBOSS);
 					
 					InputStream pic = new FileInputStream(imgFullFileName);
-					
+					System.out.println(imgFullFileName);
 					run1.addPicture(pic, 6, imgFullFileName, Units.toEMU(465), Units.toEMU(250));
 					pic.close();
 					
