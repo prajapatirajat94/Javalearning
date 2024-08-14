@@ -44,6 +44,7 @@ fnCaptureScreen(true,"TEST_PASS",driver);
 		File folder=new File(strImageFolderPath);
 		if(!folder.exists()) {
 			folder.mkdir();
+
 		}
 		
 		String sFileName="";
