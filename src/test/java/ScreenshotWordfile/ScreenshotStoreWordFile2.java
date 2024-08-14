@@ -11,16 +11,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import ru.yandex.qatools.ashot.AShot;
 
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class ScreenshotStoreWordFile2 {
     public static WebDriver driver;
@@ -38,8 +33,9 @@ public class ScreenshotStoreWordFile2 {
 
     public static void fnCaptureScreen(String message, WebDriver driver) throws IOException, InvalidFormatException{
        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String path =  System.getProperty("user.dir") + "/FailedScreenshotFile/" + System.currentTimeMillis() + ".png";
-        FileUtils.copyFile(file,new File(path));
+        String ScreenshotPath =  System.getProperty("user.dir") + "/FailedScreenshotFile/" + System.currentTimeMillis() + ".png";
+        String ScreenshotWordFilepath ="./FailedScreenshotFile/Screenshot.docx";
+        FileUtils.copyFile(file,new File(ScreenshotPath));
         Path Screenshot = Paths.get("./FailedScreenshotFile/");
         //creating folder if not exist
 
@@ -53,10 +49,10 @@ public class ScreenshotStoreWordFile2 {
         XWPFRun run1;
 
 //checking dox file exist or not  if not it will create one
-        if(!Files.exists(Paths.get("./FailedScreenshotFile/Screenshot.docx"))) {
+        if(!Files.exists(Paths.get(ScreenshotWordFilepath))) {
             //creating new docx file
             try(XWPFDocument doc = new XWPFDocument();
-                FileOutputStream out = new FileOutputStream(new File("./FailedScreenshotFile/Screenshot.docx"))){
+                FileOutputStream out = new FileOutputStream(new File(ScreenshotWordFilepath))){
                 para = doc.createParagraph();
                 para.setSpacingBefore(0);
                 para.setSpacingAfter(0);
@@ -90,9 +86,9 @@ public class ScreenshotStoreWordFile2 {
                     para1.setBorderRight(Borders.THREE_D_EMBOSS);
                     para1.setBorderBottom(Borders.THREE_D_EMBOSS);
 
-                    InputStream pic = new FileInputStream(path);
+                    InputStream pic = new FileInputStream(ScreenshotPath);
 
-                    run1.addPicture(pic, 6, path, Units.toEMU(465), Units.toEMU(250));
+                    run1.addPicture(pic, 6, ScreenshotPath, Units.toEMU(465), Units.toEMU(250));
                     pic.close();
 
 
@@ -100,9 +96,9 @@ public class ScreenshotStoreWordFile2 {
             }
         }
         else {
-            try(FileInputStream fis = new FileInputStream("./FailedScreenshotFile/Screenshot.docx");
+            try(FileInputStream fis = new FileInputStream(ScreenshotWordFilepath);
                 XWPFDocument doc = new XWPFDocument(fis);
-                FileOutputStream out = new FileOutputStream("./FailedScreenshotFile/Screenshot.docx")){
+                FileOutputStream out = new FileOutputStream(ScreenshotWordFilepath)){
 
 //Opening Existing file
                 para = doc.createParagraph();
@@ -130,9 +126,9 @@ public class ScreenshotStoreWordFile2 {
                     para1.setBorderRight(Borders.THREE_D_EMBOSS);
                     para1.setBorderBottom(Borders.THREE_D_EMBOSS);
 
-                    InputStream pic = new FileInputStream(path);
+                    InputStream pic = new FileInputStream(ScreenshotPath);
 
-                    run1.addPicture(pic, 6, path, Units.toEMU(465), Units.toEMU(250));
+                    run1.addPicture(pic, 6, ScreenshotPath, Units.toEMU(465), Units.toEMU(250));
                     pic.close();
 
 
